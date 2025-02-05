@@ -1,0 +1,318 @@
+@media only screen and (max-width: 1180px){
+    .header .left-block .nav-block nav ul li a {
+        padding: 0 12px;
+    }
+
+}
+
+@media only screen and (max-width: 1025px) {
+    .header .left-block .nav-block nav ul li a {
+        padding: 0 11px;
+    }
+}
+
+@media only screen and (max-width: 1005px){
+    .header .res-submit-btn{
+        display: flex;
+    }
+
+    .header .right-block .submit-btn{
+        display: none;
+    }
+
+    .header .res-submit-btn {
+         padding-inline: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .header .d-flex {
+        padding: 0;
+    }
+
+    .header .left-block {
+        gap: 11px;
+    }
+
+    .header .right-block .submit-btn a {
+        padding: 15px 8px;
+    }
+
+    .header .res-submit-btn {
+        padding-inline: 0;
+    }
+}
+
+@media only screen and (max-width: 959px){
+
+    .header{
+        padding: 10px 0;
+    }
+    .header .left-block .nav-block{
+        display: none !important;
+    }
+
+    .header .left-block .logo-block {
+        width: 72%;
+    }
+
+    .header .res-submit-btn{
+        display: none;
+    }
+
+    .header .right-block .menu-icon {
+        display: block;
+    }
+
+    .header .right-block {
+        gap: 20px;
+    }
+
+    .header .right-block .login a {
+        padding-inline: 0;
+    }
+}
+
+@media only screen and (max-width: 821px){
+    .banner-section .hero-text {
+        width: 100% !important;
+    }
+
+    .banner-section .hero-text {
+        padding-left: 0;
+    }
+
+    .card-section {
+        padding-inline: 0;
+    }
+
+    .the-river-district-section {
+        padding-inline: 0;
+    }
+
+    .guidance-every-step-section {
+        padding-inline: 0;
+    }
+
+    footer .content {
+        padding-left: 0;
+    }
+
+    .turbulence-free-home-section .heading {
+        width: 100%;
+    }
+
+    .turbulence-free-home-section .heading h3 {
+        width: 100%;
+    }
+
+    .the-river-district-section .right-block {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .the-river-district-section .right-block .left-img-content {
+        width: 100%;
+    }
+
+    .the-river-district-section .right-block .right-img-content {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 13px;
+    }
+
+    .the-river-district-section .right-block .img-block {
+        height: 231px;
+        width: 100%;
+    }
+
+    .the-river-district-section .right-block .content {
+        width: 100%;
+    }
+
+    .the-river-district-section {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .turbulence-free-home-section {
+        padding: 50px 0;
+    }
+
+    .guidance-every-step-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .card-section {
+        padding: 50px 0 50px 0;
+    }
+
+    .guidance-every-step-section .top-heading {
+        padding-bottom: 40px;
+    }
+
+    .guidance-every-step-section .bottom-content .row .mb {
+        margin-bottom: 30px;
+    }
+
+    .banner-section .hero-text .contact-btn {
+     padding: 13px 25px;
+    }
+
+    .banner-section .hero-text ul li i {
+        font-size: 20px;
+    }
+    
+    .banner-section .hero-text ul li {
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .banner-section .hero-text h1 {
+        font-size: clamp(1.875rem, -0.4688rem + 12.5vw, 5rem);
+    }
+
+    .banner-section .hero-text ul li {
+        font-size: clamp(1rem, 0.8125rem + 1vw, 1.25rem);
+    }
+
+    .the-river-district-section .left-block h3 {
+        font-size: clamp(1.875rem, 0.9375rem + 5vw, 3.125rem);
+    }
+
+    .turbulence-free-home-section .heading p {
+        font-size: clamp(0.875rem, 0.7813rem + 0.5vw, 1rem);
+    }
+
+    .turbulence-free-home-section .heading .contact-btn {
+        font-size: 14px;
+        padding: 14px 27px 14px 23px;
+    }
+
+    .turbulence-free-home-section .heading h3 {
+        font-size: clamp(1.875rem, 0.9375rem + 5vw, 3.125rem);
+    }
+
+    .guidance-every-step-section .top-heading h3 {
+        font-size: clamp(1.875rem, 0.9375rem + 5vw, 3.125rem);
+    }
+
+    .guidance-every-step-section .bottom-content .content p {
+        font-size: clamp(0.875rem, 0.7813rem + 0.5vw, 1rem);
+    }
+
+    .header .right-block {
+        gap: 9px;
+    }
+
+    .header .right-block .menu-icon {
+        padding: 1px 2px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 460px){
+
+    .banner-section {
+        height: 500px;
+    }
+
+    .banner-section .hero-text ul li {
+        font-size:15px;
+    }
+
+    .banner-section .hero-text ul li i {
+        font-size: 23px;
+    }
+
+    .banner-section .hero-text ul li {
+        gap: 10px;
+    }
+
+    .banner-section .hero-text h1 {
+        font-size: 50px;
+    }
+
+    .card-section .card .top-img {
+        height: 250px;
+    }
+
+    .the-river-district-section .left-block {
+        padding-bottom: 45px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .the-river-district-section .left-block span {
+        padding-bottom: 20px;
+    }
+
+    .the-river-district-section .right-block .right-img-content .content p {
+        padding-bottom: 15px;
+    }
+
+    .turbulence-free-home-section {
+        padding: 40px 0;
+    }
+
+    .turbulence-free-home-section .heading p {
+        padding-bottom: 5px;
+    }
+
+    .guidance-every-step-section {
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    .the-river-district-section .left-block h3 {
+        font-size: 28px;
+    }
+
+    .turbulence-free-home-section .heading h3 {
+        font-size: 28px;
+    }
+
+    .guidance-every-step-section .top-heading h3 {
+        font-size: 28px;
+    }
+
+    .turbulence-free-home-section .heading .contact-btn {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    footer .content {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    footer .content .logo-block {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    footer .content ul li a {
+        justify-content: center;
+    }
+
+    footer .content .icon-box {
+        justify-content: center;
+    }
+
+    footer .copy-right-block .d-flex{
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    footer .copy-right-block .d-flex .left{
+        display: none;
+    }
+}
+
